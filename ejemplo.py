@@ -8,5 +8,5 @@ edad= int(input('Inserta tu eded:'))
 estatura= float(input('Inserta tu estarura'))
 print('Mi nombre es', Nombre,'y naci en',2019-edad, 'y mido', estatura)
 
-print('hola wooow')
+
 
