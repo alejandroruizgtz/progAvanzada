@@ -103,7 +103,7 @@ else:
     print('insertar edad valida')
 
 
-[Ejercicio 1]()
+[Ejemplo 2](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejemplo2.py)
 
 
 
