@@ -390,3 +390,195 @@ El año se divide en cuatro estaciones: primavera, verano, otoño e invierno.  S
 [Ejercicio 46](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio46.py)
 
 
+## Ejercicio 47
+Los horóscopos comúnmente reportados en los periódicos usan la posición del sol en el momento del nacimiento para intentar predecir el futuro. Este sistema de astrología divide el año en doce signos del zodiaco, como se describe en la tabla a continuación:
+
++|Signo zodiacal | Fechas |
++|Capricornio |Diciembre 22 to Enero 19| 
++|Aquario |Enero 20 to Febrero 18| 
++|Piscis |Febrero 19 to Marzo 20| 
++|Aries |Marzo 21 to Abril 19| 
++|Tauro |Abril 20 to Mayo 20| 
++|Geminis |Mayo 21 to Junio 20| 
++|Cancer |Junio 21 to Julio 22| 
++|Leo |Julio 23 to Agosto 22| 
++|Virgo |Agosto 23 to Septiembre 22| 
++|Libra |Septiembre 23 to Octubre 22| 
++|Escorpion |Octubre 23 to Noviembre 21| 
++|Sagitario |Noviembre 22 to Diciembre 21|
+
+Escriba un programa que le pida al usuario que ingrese su mes y día de nacimiento. Luego, nuestro programa debe informar el signo zodiacal del usuario como parte de un mensaje de salida apropiado.
+
+[Ejercicio 47](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio47.py)
+
+## Ejercicio 48
+El zodiaco chino asigna animales a años en un ciclo de 12 años. Un ciclo de 12 años se muestra en la tabla a continuación. El patrón se repite a partir de ahí, con 2012 siendo otro año del dragón, y 1999 siendo otro año de la liebre.
+
++|Año |Animal| 
++|----------|----------|
++|2000 |Dragón| 
++|2001 |Serpiente |
++|2002 |Caballo |
++|2003 |Oveja|
++|2004 |Mono| 
++|2005 |Gallo |
++|2006 |Perro |
++|2007 |Cerdo |
++|2008 |Rata |
++|2009 |Buey |
++|2010 |Tigre| 
++|2011| Liebre|
+
+Escriba un programa que lea un año del usuario y muestre el animal asociado con ese año. Su programa debería funcionar correctamente durante cualquier año mayor o igual a cero, no solo los que figuran en la tabla.
+
+[Ejercicio 48](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio48.py)
+
+## Ejercicio 49
+La siguiente tabla contiene rangos de magnitud de terremotos en la escala de Richter y sus descriptores:
+
++|Magnitud| Tipos|
++|---------|-----------| 
++|Menor que 2.0| Micro| 
++|2.0 Menor que 3.0| Muy suave| 
++|3.0 Menor que 4.0| Suave |
++|4.0 Menor que 5.0 |Ligero|
++|5.0 Menor que 6.0 |Moderado| 
++|6.0 Menor que 7.0 |Fuerte| 
++|7.0 Menor que 8.0 |Mayor|
++|8.0 Menor que 10.0| Grande| 
++|10.0 o más |Meteórico|
+
+Escriba un programa que lea una magnitud del usuario y muestre el descriptor apropiado como parte de un mensaje significativo. Por ejemplo, si el usuario ingresa 5.5, entonces su programa debe indicar que un terremoto de magnitud 5.5 se considera un terremoto moderado.
+
+[Ejercicio 49](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio49.py)
+
+## Ejercicio 50
+Una función cuadrática univariada tiene la forma f (x) = ax2 + bx + c, donde a, b y c son constantes, y a no es cero. Las raíces de una función cuadrática se pueden encontrar al encontrar los valores de x que satisfacen la ecuación cuadrática ax2 + bx + c = 0. Una función cuadrática puede tener 0, 1 o 2 raíces reales. Estas raíces se pueden calcular utilizando la fórmula cuadrática, que se muestra a continuación:
+root = (−b ± √ b2 − 4ac )/(2a)
+La parte de la expresión debajo del signo de raíz cuadrada se llama discriminante. Si el discriminante es negativo, entonces la ecuación cuadrática no tiene raíces reales.
+Si el discriminante es 0, entonces la ecuación tiene una raíz real. De lo contrario, la ecuación tiene dos raíces reales, y la expresión debe evaluarse dos veces, una vez usando un signo más, y una vez usando un signo menos, al calcular el numerador.
+Escriba un programa que calcule las raíces reales de una función cuadrática. Su programa debe comenzar solicitando al usuario los valores de a, b y c, luego, debe mostrar un mensaje que indique el número de raíces reales, junto con los valores de las raíces reales (si las hay).
+
+[Ejercicio 50](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio50.py)
+
+## Ejercicio 51
+En una universidad en particular, las calificaciones con letras se asignan a los puntos de calificación de la siguiente manera:
+
++|Letra | Grado de punto |
++|---------|-----------|
++|A+| 4.0 |
++|A |4.0 |
++|A− |3.7| 
++|B+| 3.3 |
++|B |3.0 |
++|B− |2.7| 
++|C+| 2.3 |
++|C |2.0 |
++|C− |1.7| 
++|D+| 1.3 |
++|D |1.0 |
++|F |0|
+
+Escriba un programa que comience leyendo una calificación de letra del usuario. Luego, su programa debe calcular y mostrar el número equivalente de puntos de calificación. Asegúrese de que su programa genere un mensaje de error apropiado si el usuario ingresa una calificación de letra no válida.
+
+[Ejercicio 51](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio51.py)
+
+## Ejercicio 52
+En el ejercicio anterior, creó un programa que convierte una calificación de letra en el número equivalente de puntos de calificación. En este ejercicio creará un programa que invierte el proceso y convierte de un valor de calificación ingresado por el usuario a una calificación de letra. Asegúrese de que su programa maneje los valores de calificación que se encuentran entre las calificaciones de las letras. Estos deben redondearse al grado de letra más cercano. Su programa debe reportar A + para un promedio de calificaciones de 4.0 (o más).
+
+[Ejercicio 52](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio52.py)
+
+## Ejercicio 53
+En una empresa en particular, los empleados son calificados al final de cada año. La escala de calificación comienza en 0.0, con valores más altos que indican un mejor rendimiento y que resultan en aumentos mayores. El valor otorgado a un empleado es 0.0, 0.4 o 0.6 o más. Los valores entre 0.0 y 0.4, y entre 0.4 y 0.6 nunca se usan. El significado asociado con cada calificación se muestra en la siguiente tabla. El monto del aumento de un empleado es de $ 2400.00 multiplicado por su calificación.
+
++|Valoración |Rendimiento|
++|---------|----------|
++|0.0 |Rendimiento inaceptable|
++|0.4 |Rendimiento aceptable|
++|0.6 o más |Rendimiento meritorio|
+
+Escriba un programa que lea una calificación del usuario e indique si el rendimiento fue inaceptable, aceptable o meritorio. También se debe informar el monto del aumento del empleado. Su programa debe mostrar un mensaje de error apropiado si se ingresa una calificación no válida.
+
+[Ejercicio 53](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio53.py)
+
+## Ejercicio 54
+La longitud de onda de la luz visible varía de 380 a 750 nanómetros (nm). Si bien el espectro es continuo, a menudo se divide en 6 colores como se muestra a continuación:
+
++|Color |Longitud de onda (nm) |
++|---------|-----------|
++|Violeta |380 o menor que 450| 
++|Azul |450 o menor que 495 |
++|Verde |495 o menor que 570 |
++|Amarillo |570 o menor que 590 |
++|Naranja |590 o menor que 620| 
++|Rojo |620 to 750|
+
+Escriba un programa que lea una longitud de onda del usuario e informe su color. Muestre un mensaje de error apropiado si la longitud de onda ingresada por el usuario está fuera del espectro visible.
+
+[Ejercicio 54](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio54.py)
+
+## Ejercicio 55
+La radiación electromagnética se puede clasificar en una de las 7 categorías según su frecuencia, como se muestra en la tabla a continuación:
+
++|Nombre |Rango de frecuencia (Hz)|
+
++|Ondas de radio |Menor de 3 × 10^9|
++|Microondas |3 × 10^9 a menos de 3 × 10^12|
++|Luz infrarroja| 3 × 10^12 a menos de 4.3 × 10^14|
++|Luz visible |4.3 × 10^14 a menos de 7.5 × 10^14|
++|Luz ultravioleta| 7.5 × 10^14 a menos de 3 × 10^17|
++|Rayos X |3 × 10^17 a menos de 3 × 10^19|
++|Rayos gamma |3 × 10^19 o más|
+
+Escriba un programa que lea la frecuencia de la radiación del usuario y muestre el nombre apropiado.
+
+[Ejercicio 55](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio55.py)
+
+
+## Ejercicio 56
+Un plan particular de telefonía celular incluye 50 minutos de tiempo al aire y 50 mensajes de texto por $ 15.00 al mes. Cada minuto adicional de tiempo de emisión cuesta $ 0.25, mientras que los mensajes de texto adicionales cuestan $ 0.15 cada uno. Todas las facturas de teléfonos celulares incluyen un cargo adicional de $ 0.44 para respaldar los centros de atención telefónica del 911, y toda la factura (incluido el cargo del 911) está sujeta al impuesto sobre las ventas del 5 por ciento.
+Escriba un programa que lea la cantidad de minutos y mensajes de texto utilizados en un mes por parte del usuario. Muestre el cargo base, el cargo adicional por minutos (si corresponde), el cargo adicional por mensaje de texto (si corresponde), la tarifa del 911, el impuesto y el monto total de la factura. Solo muestre los cargos adicionales por minutos y mensajes de texto si el usuario incurrió en costos en estas categorías. Asegúrese de que todos los cargos se muestren con 2 decimales.
+
+[Ejercicio 56](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio56.py)
+
+## Ejercicio 57
+La mayoría de los años tienen 365 días. Sin embargo, el tiempo requerido para que la Tierra orbita alrededor del Sol es en realidad un poco más que eso. Como resultado, se incluye un día adicional, el 29 de febrero, en algunos años para corregir esta diferencia. Dichos años se denominan años bisiestos. Las reglas para determinar si un año es o no bisiesto son las siguientes:
++ Cualquier año que es divisible por 400 es un año bisiesto.
++ De los años restantes, cualquier año divisible por 100 no es bisiesto.
++ De los años restantes, cualquier año que sea divisible por 4 es un año bisiesto.
++ Todos los demás años no son bisiestos.
+Escriba un programa que lea un año del usuario y muestre un mensaje que indique si es o no un año bisiesto.
+
+[Ejercicio 57](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio57.py)
+
+## Ejercicio 58
+Escriba un programa que lea una fecha del usuario y calcule su sucesor inmediato. Por ejemplo, si el usuario ingresa valores que representan 2013-11-18, entonces su programa debería mostrar un mensaje que indica que el día inmediatamente posterior a 2013-11-18 es 2013-11-19. Si el usuario ingresa valores que representan 2013-11-30, entonces el programa debe indicar que el día siguiente es 2013-12-01. Si el usuario ingresa valores que representan 2013-12-31, entonces el programa debe indicar que el día siguiente es 2014-01-01. La fecha se ingresará en forma numérica con tres declaraciones de entrada separadas; uno para el año, uno para el mes y otro para el día. Asegúrese de que su programa funcione correctamente durante los años bisiestos.
+
+[Ejercicio 58](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio58.py)
+
+## Ejercicio 59
+En una jurisdicción particular, las matrículas más antiguas consisten en tres letras mayúsculas seguidas de tres números. Cuando todas las placas que siguieron ese patrón tenían Una vez utilizado, el formato se cambió a cuatro números seguidos de tres letras mayúsculas.
+Escriba un programa que comience leyendo una cadena de caracteres del usuario. Luego, su programa debe mostrar un mensaje que indique si los caracteres son válidos para una placa de estilo anterior o una placa de estilo más nueva. Su programa debe mostrar un mensaje apropiado si la cadena ingresada por el usuario no es válida para ninguno de los estilos de matrícula.
+
+[Ejercicio 59](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio59.py)
+
+## Ejercicio 60
+Una ruleta tiene 38 espacios. De estos espacios, 18 son negros, 18 son rojos y dos son verdes. Los espacios verdes están numerados 0 y 00. Los espacios rojos están numerados 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30 32, 34 y 36. los números enteros restantes entre 1 y 36 se usan para numerar los espacios negros.
+Se pueden hacer muchas apuestas diferentes en la ruleta. Solo consideraremos el siguiente subconjunto de ellos en este ejercicio:
+
++ Número único (1 a 36, 0 o 00)
++ Rojo contra negro
++ Impar versus par (tenga en cuenta que 0 y 00 no pagan por par)
++ 1 a 18 versus 19 a 36
+
+Escriba un programa que simule el giro de una rueda de ruleta utilizando el generador de números aleatorios de Python. Muestra el número que se seleccionó y todas las apuestas que se deben pagar. Por ejemplo, si se selecciona 13, su programa debería mostrar:
+El giro resultó en 13 ...
+Pagar 13
+Pagar negro
+Paga impar
+Pague de 1 a 18
+
+[Ejercicio 60](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio60.py)
+[Ejercicio 52](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio62.py)
+[Ejercicio 69](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio69.py)
+
